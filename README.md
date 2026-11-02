@@ -3,7 +3,7 @@
 <!-- HERO BANNER (DUAL-THEME) -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img alt="Eng. Emadadin Essam Alyanaee — Systems Architect &amp; AI Specialist" src="assets/hero-light.svg" width="100%">
+  <img alt="Eng. Emad'adin Al-Ynaey — Systems Architect &amp; AI Specialist" src="assets/hero-light.svg" width="100%">
 </picture>
 
 <br>
@@ -11,6 +11,8 @@
   <a href="https://github.com/emadadin20?tab=repositories">REPOSITORIES</a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#featured-works">FEATURED WORKS</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#credentials-and-honors">CREDENTIALS</a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#engineering-disciplines">TECH STACK</a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
@@ -66,10 +68,25 @@
 <br>
 <br>
 
-<!-- SECTION IV: ACTIVITY & CADENCE -->
+<!-- SECTION IV: CREDENTIALS & HONORS -->
+<span id="credentials-and-honors"></span>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-credentials-dark.svg">
+  <img alt="IV. Credentials &amp; Honors" src="assets/h-credentials-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/credentials-dark.svg">
+  <img alt="Credentials &amp; Honors — Academic Excellence, Summits &amp; Mentorship" src="assets/credentials-light.svg" width="100%">
+</picture>
+
+<br>
+<br>
+
+<!-- SECTION V: ACTIVITY & CADENCE -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/h-activity-dark.svg">
-  <img alt="IV. Activity &amp; Cadence" src="assets/h-activity-light.svg" width="100%">
+  <img alt="V. Activity &amp; Cadence" src="assets/h-activity-light.svg" width="100%">
 </picture>
 
 <!-- DYNAMIC CONTRIBUTION MATRIX (SNAKE GRAPH) -->
@@ -86,7 +103,7 @@
 <a href="mailto:emadadin17@gmail.com">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/epilogue-dark.svg">
-    <img alt="Eng. Emadadin — Let’s build something remarkable together" src="assets/epilogue-light.svg" width="100%">
+    <img alt="Eng. Emad'adin — Let’s build something remarkable together" src="assets/epilogue-light.svg" width="100%">
   </picture>
 </a>
 

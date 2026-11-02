@@ -48,8 +48,8 @@
           <text x="20" y="38" class="mono" font-size="11" letter-spacing="2" fill="#9A7228">//01</text>
           <text x="206" y="38" text-anchor="end" font-size="16">🧠</text>
           
-          <text x="20" y="72" class="serif" font-size="16" font-weight="700" fill="#1E1912">AI &amp; RAG AGENTS</text>
-          <text x="20" y="92" class="mono" font-size="10.5" letter-spacing="1" fill="#D4AF37">Autonomous Systems</text>
+          <text x="20" y="72" class="serif" font-size="15.5" font-weight="700" fill="#1E1912">AI &amp; RAG AGENTS</text>
+          <text x="20" y="92" class="mono" font-size="10.5" letter-spacing="1" fill="#D4AF37">Autonomous Intelligence</text>
           
           <line x1="20" y1="110" x2="206" y2="110" stroke="rgba(154, 114, 40, 0.18)" stroke-width="1"/>
           
@@ -63,32 +63,32 @@
             <text x="113.0" y="216" text-anchor="middle" class="mono" font-size="10.5" fill="#1E1912">LangChain</text>
             
             <rect x="14" y="227" width="198" height="22" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
-            <text x="113.0" y="242" text-anchor="middle" class="mono" font-size="10.5" fill="#1E1912">LlamaIndex</text>
+            <text x="113.0" y="242" text-anchor="middle" class="mono" font-size="10.5" fill="#1E1912">Gemini API</text>
             
             <rect x="14" y="253" width="198" height="22" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
-            <text x="113.0" y="268" text-anchor="middle" class="mono" font-size="10.5" fill="#1E1912">Gemini API</text>
+            <text x="113.0" y="268" text-anchor="middle" class="mono" font-size="10.5" fill="#1E1912">Claude AI</text>
             
             <rect x="14" y="279" width="198" height="22" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
             <text x="113.0" y="294" text-anchor="middle" class="mono" font-size="10.5" fill="#1E1912">ChromaDB</text>
             
             <rect x="14" y="305" width="198" height="22" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
-            <text x="113.0" y="320" text-anchor="middle" class="mono" font-size="10.5" fill="#1E1912">WhatsApp API</text>
+            <text x="113.0" y="320" text-anchor="middle" class="mono" font-size="10.5" fill="#1E1912">WhatsApp Cloud</text>
             
           
           <line x1="20" y1="335" x2="206" y2="335" stroke="rgba(154, 114, 40, 0.18)" stroke-width="1"/>
           <text x="20" y="348" class="mono" font-size="10" letter-spacing="1.5" fill="#9A7228">ENGINEERING HIGHLIGHTS</text>
           
             <circle cx="20" cy="355" r="2" fill="#9A7228"/>
-            <text x="30" y="359" class="sans" font-size="11.5" fill="#635B4F">Autonomous WhatsApp AI Agents</text>
+            <text x="30" y="359" class="sans" font-size="11.5" fill="#635B4F">Claude Essentials Certified</text>
             
             <circle cx="20" cy="389" r="2" fill="#9A7228"/>
-            <text x="30" y="393" class="sans" font-size="11.5" fill="#635B4F">Domain-Specific RAG Pipelines</text>
+            <text x="30" y="393" class="sans" font-size="11.5" fill="#635B4F">Yemen AI Summit Contributor</text>
             
             <circle cx="20" cy="423" r="2" fill="#9A7228"/>
-            <text x="30" y="427" class="sans" font-size="11.5" fill="#635B4F">Multi-Turn Conversation Memory</text>
+            <text x="30" y="427" class="sans" font-size="11.5" fill="#635B4F">Autonomous WhatsApp Agents</text>
             
             <circle cx="20" cy="457" r="2" fill="#9A7228"/>
-            <text x="30" y="461" class="sans" font-size="11.5" fill="#635B4F">High-Throughput Vector Search</text>
+            <text x="30" y="461" class="sans" font-size="11.5" fill="#635B4F">Domain-Specific Vector RAG</text>
             
         </g>
         
@@ -99,8 +99,8 @@
           <text x="20" y="38" class="mono" font-size="11" letter-spacing="2" fill="#9A7228">//02</text>
           <text x="206" y="38" text-anchor="end" font-size="16">🏛️</text>
           
-          <text x="20" y="72" class="serif" font-size="16" font-weight="700" fill="#1E1912">ENTERPRISE ERP</text>
-          <text x="20" y="92" class="mono" font-size="10.5" letter-spacing="1" fill="#D4AF37">Full-Stack Software</text>
+          <text x="20" y="72" class="serif" font-size="15.5" font-weight="700" fill="#1E1912">ENTERPRISE ERP</text>
+          <text x="20" y="92" class="mono" font-size="10.5" letter-spacing="1" fill="#D4AF37">Mission-Critical Systems</text>
           
           <line x1="20" y1="110" x2="206" y2="110" stroke="rgba(154, 114, 40, 0.18)" stroke-width="1"/>
           
@@ -123,20 +123,20 @@
             <text x="113.0" y="294" text-anchor="middle" class="mono" font-size="10.5" fill="#1E1912">CustomTkinter</text>
             
             <rect x="14" y="305" width="198" height="22" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
-            <text x="113.0" y="320" text-anchor="middle" class="mono" font-size="10.5" fill="#1E1912">ReportLab</text>
+            <text x="113.0" y="320" text-anchor="middle" class="mono" font-size="10.5" fill="#1E1912">ReportLab A4</text>
             
           
           <line x1="20" y1="335" x2="206" y2="335" stroke="rgba(154, 114, 40, 0.18)" stroke-width="1"/>
           <text x="20" y="348" class="mono" font-size="10" letter-spacing="1.5" fill="#9A7228">ENGINEERING HIGHLIGHTS</text>
           
             <circle cx="20" cy="355" r="2" fill="#9A7228"/>
-            <text x="30" y="359" class="sans" font-size="11.5" fill="#635B4F">ASAAS Liquid Glass UI Kits</text>
+            <text x="30" y="359" class="sans" font-size="11.5" fill="#635B4F">ASAAS Liquid Glass UI Architecture</text>
             
             <circle cx="20" cy="389" r="2" fill="#9A7228"/>
             <text x="30" y="393" class="sans" font-size="11.5" fill="#635B4F">Strict Arabic RTL Systems</text>
             
             <circle cx="20" cy="423" r="2" fill="#9A7228"/>
-            <text x="30" y="427" class="sans" font-size="11.5" fill="#635B4F">A4 Standard Print Vouchers</text>
+            <text x="30" y="427" class="sans" font-size="11.5" fill="#635B4F">Official A4 Print Vouchers</text>
             
             <circle cx="20" cy="457" r="2" fill="#9A7228"/>
             <text x="30" y="461" class="sans" font-size="11.5" fill="#635B4F">Multi-Tenant Isolation</text>
@@ -150,8 +150,8 @@
           <text x="20" y="38" class="mono" font-size="11" letter-spacing="2" fill="#9A7228">//03</text>
           <text x="206" y="38" text-anchor="end" font-size="16">📊</text>
           
-          <text x="20" y="72" class="serif" font-size="16" font-weight="700" fill="#1E1912">DATA SCIENCE</text>
-          <text x="20" y="92" class="mono" font-size="10.5" letter-spacing="1" fill="#D4AF37">Analytics &amp; Graphs</text>
+          <text x="20" y="72" class="serif" font-size="15.5" font-weight="700" fill="#1E1912">DATA SCIENCE &amp; MATH</text>
+          <text x="20" y="92" class="mono" font-size="10.5" letter-spacing="1" fill="#D4AF37">Mathematical Rigor</text>
           
           <line x1="20" y1="110" x2="206" y2="110" stroke="rgba(154, 114, 40, 0.18)" stroke-width="1"/>
           
@@ -159,22 +159,22 @@
           <text x="20" y="145" class="mono" font-size="10" letter-spacing="1.5" fill="#9A7228">TECHNOLOGY STACK</text>
           
             <rect x="14" y="175" width="198" height="22" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
-            <text x="113.0" y="190" text-anchor="middle" class="mono" font-size="10.5" fill="#1E1912">Python 3.12</text>
+            <text x="113.0" y="190" text-anchor="middle" class="mono" font-size="10.5" fill="#1E1912">Statistics</text>
             
             <rect x="14" y="201" width="198" height="22" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
-            <text x="113.0" y="216" text-anchor="middle" class="mono" font-size="10.5" fill="#1E1912">Pandas</text>
+            <text x="113.0" y="216" text-anchor="middle" class="mono" font-size="10.5" fill="#1E1912">Probability</text>
             
             <rect x="14" y="227" width="198" height="22" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
-            <text x="113.0" y="242" text-anchor="middle" class="mono" font-size="10.5" fill="#1E1912">NumPy</text>
+            <text x="113.0" y="242" text-anchor="middle" class="mono" font-size="10.5" fill="#1E1912">Linear Algebra</text>
             
             <rect x="14" y="253" width="198" height="22" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
-            <text x="113.0" y="268" text-anchor="middle" class="mono" font-size="10.5" fill="#1E1912">Scikit-Learn</text>
+            <text x="113.0" y="268" text-anchor="middle" class="mono" font-size="10.5" fill="#1E1912">Python 3.12</text>
             
             <rect x="14" y="279" width="198" height="22" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
-            <text x="113.0" y="294" text-anchor="middle" class="mono" font-size="10.5" fill="#1E1912">NetworkX</text>
+            <text x="113.0" y="294" text-anchor="middle" class="mono" font-size="10.5" fill="#1E1912">Pandas</text>
             
             <rect x="14" y="305" width="198" height="22" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
-            <text x="113.0" y="320" text-anchor="middle" class="mono" font-size="10.5" fill="#1E1912">PyTorch Geo</text>
+            <text x="113.0" y="320" text-anchor="middle" class="mono" font-size="10.5" fill="#1E1912">NetworkX</text>
             
           
           <line x1="20" y1="335" x2="206" y2="335" stroke="rgba(154, 114, 40, 0.18)" stroke-width="1"/>
@@ -184,13 +184,13 @@
             <text x="30" y="359" class="sans" font-size="11.5" fill="#635B4F">Financial Graph Fraud Networks</text>
             
             <circle cx="20" cy="389" r="2" fill="#9A7228"/>
-            <text x="30" y="393" class="sans" font-size="11.5" fill="#635B4F">Transactional Loop Detection</text>
+            <text x="30" y="393" class="sans" font-size="11.5" fill="#635B4F">Anomaly &amp; Outlier Analytics</text>
             
             <circle cx="20" cy="423" r="2" fill="#9A7228"/>
-            <text x="30" y="427" class="sans" font-size="11.5" fill="#635B4F">Anomaly &amp; Risk Scoring</text>
+            <text x="30" y="427" class="sans" font-size="11.5" fill="#635B4F">Predictive Mathematical Models</text>
             
             <circle cx="20" cy="457" r="2" fill="#9A7228"/>
-            <text x="30" y="461" class="sans" font-size="11.5" fill="#635B4F">Statistical Pipeline Design</text>
+            <text x="30" y="461" class="sans" font-size="11.5" fill="#635B4F">IUTT Theoretical Foundations</text>
             
         </g>
         
@@ -201,8 +201,8 @@
           <text x="20" y="38" class="mono" font-size="11" letter-spacing="2" fill="#9A7228">//04</text>
           <text x="206" y="38" text-anchor="end" font-size="16">🛡️</text>
           
-          <text x="20" y="72" class="serif" font-size="16" font-weight="700" fill="#1E1912">DATABASE ENGINES</text>
-          <text x="20" y="92" class="mono" font-size="10.5" letter-spacing="1" fill="#D4AF37">Data Integrity</text>
+          <text x="20" y="72" class="serif" font-size="15.5" font-weight="700" fill="#1E1912">DATABASE ENGINES</text>
+          <text x="20" y="92" class="mono" font-size="10.5" letter-spacing="1" fill="#D4AF37">ACID Data Integrity</text>
           
           <line x1="20" y1="110" x2="206" y2="110" stroke="rgba(154, 114, 40, 0.18)" stroke-width="1"/>
           
@@ -232,16 +232,16 @@
           <text x="20" y="348" class="mono" font-size="10" letter-spacing="1.5" fill="#9A7228">ENGINEERING HIGHLIGHTS</text>
           
             <circle cx="20" cy="355" r="2" fill="#9A7228"/>
-            <text x="30" y="359" class="sans" font-size="11.5" fill="#635B4F">ACID Multi-Currency Ledgers</text>
+            <text x="30" y="359" class="sans" font-size="11.5" fill="#635B4F">Multi-Currency Ledgers (USD/YER/SAR)</text>
             
             <circle cx="20" cy="389" r="2" fill="#9A7228"/>
-            <text x="30" y="393" class="sans" font-size="11.5" fill="#635B4F">Strict Constraints &amp; Foreign Keys</text>
+            <text x="30" y="393" class="sans" font-size="11.5" fill="#635B4F">Strict Constraints &amp; Schema Design</text>
             
             <circle cx="20" cy="423" r="2" fill="#9A7228"/>
             <text x="30" y="427" class="sans" font-size="11.5" fill="#635B4F">Immutable System Audit Trails</text>
             
             <circle cx="20" cy="457" r="2" fill="#9A7228"/>
-            <text x="30" y="461" class="sans" font-size="11.5" fill="#635B4F">High-Concurrency Query Tuning</text>
+            <text x="30" y="461" class="sans" font-size="11.5" fill="#635B4F">High-Concurrency Performance</text>
             
         </g>
         
@@ -252,8 +252,8 @@
           <text x="20" y="38" class="mono" font-size="11" letter-spacing="2" fill="#9A7228">//05</text>
           <text x="206" y="38" text-anchor="end" font-size="16">⚙️</text>
           
-          <text x="20" y="72" class="serif" font-size="16" font-weight="700" fill="#1E1912">SYSTEMS &amp; LOW-LEVEL</text>
-          <text x="20" y="92" class="mono" font-size="10.5" letter-spacing="1" fill="#D4AF37">Core Computing</text>
+          <text x="20" y="72" class="serif" font-size="15.5" font-weight="700" fill="#1E1912">SYSTEMS &amp; LOW-LEVEL</text>
+          <text x="20" y="92" class="mono" font-size="10.5" letter-spacing="1" fill="#D4AF37">Core Computing Roots</text>
           
           <line x1="20" y1="110" x2="206" y2="110" stroke="rgba(154, 114, 40, 0.18)" stroke-width="1"/>
           
@@ -292,7 +292,7 @@
             <text x="30" y="427" class="sans" font-size="11.5" fill="#635B4F">Desktop Enterprise Applications</text>
             
             <circle cx="20" cy="457" r="2" fill="#9A7228"/>
-            <text x="30" y="461" class="sans" font-size="11.5" fill="#635B4F">Deterministic Low-Level Logic</text>
+            <text x="30" y="461" class="sans" font-size="11.5" fill="#635B4F">Deterministic Computational Logic</text>
             
         </g>
         

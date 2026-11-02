@@ -46,12 +46,12 @@
       <rect x="50" y="20" width="6" height="175" rx="3" fill="url(#goldGrad)"/>
       
       <text x="80" y="55" class="mono" font-size="11" letter-spacing="3" fill="#9A7228">SOVEREIGN ARCHITECTURAL MANIFESTO</text>
-      <text x="80" y="90" class="serif" font-size="20" font-weight="600" fill="#1E1912">"Software architecture is not merely about writing code; it is the discipline of structuring durable institutions."</text>
+      <text x="80" y="90" class="serif" font-size="20" font-weight="600" fill="#1E1912">"Software architecture is the art of structuring durable, mathematically sound institutions."</text>
       
-      <text x="80" y="125" class="sans" font-size="14.5" fill="#635B4F">From low-level 8086 microprocessor assembly and deterministic C++ data structures to distributed enterprise ERPs with FastAPI and PostgreSQL,</text>
-      <text x="80" y="150" class="sans" font-size="14.5" fill="#635B4F">my focus is uncompromising: absolute financial ACID integrity, sub-second latency, and autonomous RAG intelligence that eliminates operational complexity.</text>
+      <text x="80" y="125" class="sans" font-size="14.5" fill="#635B4F">Rooted in rigorous mathematical foundations at IUTT University (Statistics, Probability, Linear Algebra) and low-level systems engineering (8086 Assembly, C++, Java),</text>
+      <text x="80" y="150" class="sans" font-size="14.5" fill="#635B4F">I architect mission-critical enterprise platforms with absolute ACID financial integrity, sub-second latency, and autonomous RAG agent swarms.</text>
       
-      <text x="1190" y="170" text-anchor="end" class="mono" font-size="11" letter-spacing="2" fill="#9A7228">ENG. EMADADIN ESSAM ALYANAEE</text>
+      <text x="1190" y="170" text-anchor="end" class="mono" font-size="11" letter-spacing="2" fill="#9A7228">ENG. EMAD'ADIN AL-YNAEY</text>
     </g>
 
     <!-- BOTTOM 4 KPI IMPACT CARDS -->
@@ -64,18 +64,18 @@
         <text x="20" y="105" class="mono" font-size="12" letter-spacing="2" font-weight="600" fill="#1E1912">ENTERPRISE MODULES</text>
         <text x="20" y="140" class="sans" font-size="13.5" fill="#635B4F">Full-cycle ERPs for real estate,</text>
         <text x="20" y="162" class="sans" font-size="13.5" fill="#635B4F">automotive showrooms, and</text>
-        <text x="20" y="184" class="sans" font-size="13.5" fill="#635B4F">campus IT infrastructure.</text>
+        <text x="20" y="184" class="sans" font-size="13.5" fill="#635B4F">campus IT asset tracking.</text>
       </g>
 
       <!-- Card 2 -->
       <g transform="translate(350, 220)">
         <rect width="275" height="230" rx="12" fill="#FFFFFF" stroke="rgba(154, 114, 40, 0.35)" stroke-width="1"/>
         <rect x="20" y="20" width="36" height="4" rx="2" fill="#9A7228"/>
-        <text x="20" y="75" class="serif" font-size="44" font-weight="700" fill="url(#goldGrad)">100%</text>
-        <text x="20" y="105" class="mono" font-size="12" letter-spacing="2" font-weight="600" fill="#1E1912">ARABIC &amp; GULF ADAPTED</text>
-        <text x="20" y="140" class="sans" font-size="13.5" fill="#635B4F">Native 22 governorates units,</text>
-        <text x="20" y="162" class="sans" font-size="13.5" fill="#635B4F">legal brokerage (2.5% سعاية),</text>
-        <text x="20" y="184" class="sans" font-size="13.5" fill="#635B4F">and Arabic-first luxury UX.</text>
+        <text x="20" y="75" class="serif" font-size="44" font-weight="700" fill="url(#goldGrad)">50+</text>
+        <text x="20" y="105" class="mono" font-size="12" letter-spacing="2" font-weight="600" fill="#1E1912">MINDS MENTORED</text>
+        <text x="20" y="140" class="sans" font-size="13.5" fill="#635B4F">Tutored in Math &amp; English with</text>
+        <text x="20" y="162" class="sans" font-size="13.5" fill="#635B4F">95% satisfaction rate and</text>
+        <text x="20" y="184" class="sans" font-size="13.5" fill="#635B4F">+20% academic improvement.</text>
       </g>
 
       <!-- Card 3 -->
@@ -93,11 +93,11 @@
       <g transform="translate(950, 220)">
         <rect width="280" height="230" rx="12" fill="#FFFFFF" stroke="rgba(154, 114, 40, 0.35)" stroke-width="1"/>
         <rect x="20" y="20" width="36" height="4" rx="2" fill="#9A7228"/>
-        <text x="20" y="75" class="serif" font-size="44" font-weight="700" fill="url(#goldGrad)">FULL</text>
-        <text x="20" y="105" class="mono" font-size="12" letter-spacing="2" font-weight="600" fill="#1E1912">SYSTEMS SPECTRUM</text>
-        <text x="20" y="140" class="sans" font-size="13.5" fill="#635B4F">From x86 assembly &amp; C++</text>
-        <text x="20" y="162" class="sans" font-size="13.5" fill="#635B4F">deterministic logic to</text>
-        <text x="20" y="184" class="sans" font-size="13.5" fill="#635B4F">LangChain RAG &amp; AI agents.</text>
+        <text x="20" y="75" class="serif" font-size="44" font-weight="700" fill="url(#goldGrad)">AI &amp; DS</text>
+        <text x="20" y="105" class="mono" font-size="12" letter-spacing="2" font-weight="600" fill="#1E1912">IUTT UNIVERSITY</text>
+        <text x="20" y="140" class="sans" font-size="13.5" fill="#635B4F">Theoretical &amp; applied mastery:</text>
+        <text x="20" y="162" class="sans" font-size="13.5" fill="#635B4F">Probability, Statistics, Algebra,</text>
+        <text x="20" y="184" class="sans" font-size="13.5" fill="#635B4F">and modern neural systems.</text>
       </g>
     </g>
 </svg>
