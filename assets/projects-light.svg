@@ -1,0 +1,297 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 885" width="1280" height="885" role="img" aria-label="Featured Works &amp; Production Projects" fill="none">
+    <title>Featured Works &amp; Production Projects</title>
+    
+    <style>
+      @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes fadeUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+      @keyframes pulseGlow { 0%, 100% { opacity: 0.4; } 50% { opacity: 0.9; } }
+      .fi { animation: fadeIn 1.2s ease both; }
+      .fu { animation: fadeUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) both; }
+      .pg { animation: pulseGlow 3s ease-in-out infinite; }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+      .serif { font-family: 'Playfair Display', 'Cormorant Garamond', 'Cinzel', Georgia, serif; }
+      .mono { font-family: 'JetBrains Mono', 'SF Mono', 'Fira Code', 'Courier New', monospace; }
+      .sans { font-family: 'Cairo', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .gold-grad { fill: url(#goldGrad); }
+      .gold-stroke { stroke: url(#goldGrad); }
+    </style>
+    
+    
+    <defs>
+      <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#D4AF37"/>
+        <stop offset="50%" stop-color="#9A7228"/>
+        <stop offset="100%" stop-color="#785314"/>
+      </linearGradient>
+      <linearGradient id="goldHorizontal" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#785314" stop-opacity="0.1"/>
+        <stop offset="30%" stop-color="#9A7228" stop-opacity="0.8"/>
+        <stop offset="70%" stop-color="#D4AF37"/>
+        <stop offset="100%" stop-color="#785314" stop-opacity="0.1"/>
+      </linearGradient>
+      <radialGradient id="ambientGlow" cx="50%" cy="0%" r="70%">
+        <stop offset="0%" stop-color="#9A7228" stop-opacity="0.12"/>
+        <stop offset="100%" stop-color="#9A7228" stop-opacity="0"/>
+      </radialGradient>
+      <clipPath id="avatarClip">
+        <circle cx="250" cy="245" r="95"/>
+      </clipPath>
+    </defs>
+    
+    <rect width="1280" height="885" fill="#FAF6ED"/>
+    <g class="fu">
+      
+        <g transform="translate(50, 20)">
+          <rect width="580" height="265" rx="14" fill="#FFFFFF" stroke="rgba(154, 114, 40, 0.35)" stroke-width="1.2"/>
+          
+          <!-- Top Accent Tag & Index -->
+          <rect x="24" y="20" width="8" height="8" rx="2" fill="#9A7228"/>
+          <text x="40" y="28" class="mono" font-size="10" letter-spacing="2" fill="#9A7228">FLAGSHIP ERP · MULTI-BRANCH</text>
+          <text x="556" y="32" text-anchor="end" class="serif" font-size="24" font-weight="700" fill="url(#goldGrad)">01</text>
+          
+          <!-- Title & Subtitle -->
+          <text x="24" y="66" class="sans" font-size="18" font-weight="700" fill="#1E1912">ASSAS ESTATES (منصة أساس للعقارات)</text>
+          <text x="24" y="90" class="mono" font-size="11" letter-spacing="1" fill="#9A7228">Ultra-Luxurious Real Estate Asset Management &amp; Development ERP</text>
+          
+          <line x1="24" y1="106" x2="556" y2="106" stroke="rgba(154, 114, 40, 0.18)" stroke-width="1"/>
+          
+          <!-- Description Lines -->
+          <text x="24" y="132" class="sans" font-size="12.5" fill="#635B4F">
+            <tspan x="24" dy="0">Complete property lifecycle, native 22 Yemeni governorates land calculation (لبنة صنعانية، قصبة، معاد),</tspan>
+            <tspan x="24" dy="18">legal brokerage engine (2.5% سعاية شرعية), multi-branch lease/sale escrow, tri-currency treasury (USD/YER/SAR),</tspan>
+            <tspan x="24" dy="18">and A4 print vouchers with 100% strict Arabic RTL luxury aesthetic.</tspan>
+          </text>
+          
+          <!-- Stack Tags -->
+          
+            <rect x="24" y="215" width="68.5" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="58.25" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">FastAPI</text>
+            
+            <rect x="100.5" y="215" width="76.0" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="138.5" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">React 19</text>
+            
+            <rect x="184.5" y="215" width="91.0" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="230.0" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">TypeScript</text>
+            
+            <rect x="283.5" y="215" width="106.0" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="336.5" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">Tailwind CSS</text>
+            
+            <rect x="397.5" y="215" width="98.5" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="446.75" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">SQLite ACID</text>
+            
+            <rect x="504.0" y="215" width="83.5" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="545.75" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">ReportLab</text>
+            
+        </g>
+        
+        <g transform="translate(650, 20)">
+          <rect width="580" height="265" rx="14" fill="#FFFFFF" stroke="rgba(154, 114, 40, 0.35)" stroke-width="1.2"/>
+          
+          <!-- Top Accent Tag & Index -->
+          <rect x="24" y="20" width="8" height="8" rx="2" fill="#9A7228"/>
+          <text x="40" y="28" class="mono" font-size="10" letter-spacing="2" fill="#9A7228">AUTOMOTIVE PLATFORM · MULTI-CURRENCY</text>
+          <text x="556" y="32" text-anchor="end" class="serif" font-size="24" font-weight="700" fill="url(#goldGrad)">02</text>
+          
+          <!-- Title & Subtitle -->
+          <text x="24" y="66" class="sans" font-size="18" font-weight="700" fill="#1E1912">ASSAS CARS (منصة أساس للسيارات)</text>
+          <text x="24" y="90" class="mono" font-size="11" letter-spacing="1" fill="#9A7228">Automotive Showroom, Fleet Management &amp; Daily Rental ERP</text>
+          
+          <line x1="24" y1="106" x2="556" y2="106" stroke="rgba(154, 114, 40, 0.18)" stroke-width="1"/>
+          
+          <!-- Description Lines -->
+          <text x="24" y="132" class="sans" font-size="12.5" fill="#635B4F">
+            <tspan x="24" dy="0">Vehicle inventory management, daily/monthly rental contracts with mandatory collateral,</tspan>
+            <tspan x="24" dy="18">custom Yemeni governorate license plate generator (1-22), car preparation expense ledger,</tspan>
+            <tspan x="24" dy="18">HWID hardware-bound licensing, and automated bilingual invoices.</tspan>
+          </text>
+          
+          <!-- Stack Tags -->
+          
+            <rect x="24" y="215" width="98.5" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="73.25" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">Python 3.12</text>
+            
+            <rect x="130.5" y="215" width="113.5" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="187.25" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">CustomTkinter</text>
+            
+            <rect x="252.0" y="215" width="83.5" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="293.75" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">ReportLab</text>
+            
+            <rect x="343.5" y="215" width="68.5" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="377.75" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">SQLite3</text>
+            
+            <rect x="420.0" y="215" width="113.5" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="476.75" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">HWID Security</text>
+            
+        </g>
+        
+        <g transform="translate(50, 305)">
+          <rect width="580" height="265" rx="14" fill="#FFFFFF" stroke="rgba(154, 114, 40, 0.35)" stroke-width="1.2"/>
+          
+          <!-- Top Accent Tag & Index -->
+          <rect x="24" y="20" width="8" height="8" rx="2" fill="#9A7228"/>
+          <text x="40" y="28" class="mono" font-size="10" letter-spacing="2" fill="#9A7228">ENTERPRISE IT INFRASTRUCTURE</text>
+          <text x="556" y="32" text-anchor="end" class="serif" font-size="24" font-weight="700" fill="url(#goldGrad)">03</text>
+          
+          <!-- Title & Subtitle -->
+          <text x="24" y="66" class="sans" font-size="18" font-weight="700" fill="#1E1912">ASSAS IT TRACKER (إدارة الأصول والتقنية)</text>
+          <text x="24" y="90" class="mono" font-size="11" letter-spacing="1" fill="#9A7228">Enterprise IT Asset Management &amp; Campus Incident ERP</text>
+          
+          <line x1="24" y1="106" x2="556" y2="106" stroke="rgba(154, 114, 40, 0.18)" stroke-width="1"/>
+          
+          <!-- Description Lines -->
+          <text x="24" y="132" class="sans" font-size="12.5" fill="#635B4F">
+            <tspan x="24" dy="0">Hardware lifecycle registry, interactive 6x4 lab station blueprint grid, service desk &amp; Kanban</tspan>
+            <tspan x="24" dy="18">incident ticketing, custodial asset transfers between staff, software licenses expiry tracking,</tspan>
+            <tspan x="24" dy="18">and immutable tamper-proof system audit logging.</tspan>
+          </text>
+          
+          <!-- Stack Tags -->
+          
+            <rect x="24" y="215" width="68.5" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="58.25" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">FastAPI</text>
+            
+            <rect x="100.5" y="215" width="91.0" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="146.0" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">PostgreSQL</text>
+            
+            <rect x="199.5" y="215" width="76.0" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="237.5" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">React 19</text>
+            
+            <rect x="283.5" y="215" width="91.0" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="329.0" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">TypeScript</text>
+            
+            <rect x="382.5" y="215" width="128.5" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="446.75" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">Liquid Glass UI</text>
+            
+            <rect x="519.0" y="215" width="68.5" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="553.25" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">asyncpg</text>
+            
+        </g>
+        
+        <g transform="translate(650, 305)">
+          <rect width="580" height="265" rx="14" fill="#FFFFFF" stroke="rgba(154, 114, 40, 0.35)" stroke-width="1.2"/>
+          
+          <!-- Top Accent Tag & Index -->
+          <rect x="24" y="20" width="8" height="8" rx="2" fill="#9A7228"/>
+          <text x="40" y="28" class="mono" font-size="10" letter-spacing="2" fill="#9A7228">AUTONOMOUS AI &amp; RAG HUB</text>
+          <text x="556" y="32" text-anchor="end" class="serif" font-size="24" font-weight="700" fill="url(#goldGrad)">04</text>
+          
+          <!-- Title & Subtitle -->
+          <text x="24" y="66" class="sans" font-size="18" font-weight="700" fill="#1E1912">AI WHATSAPP ASSISTANT &amp; RAG HUB</text>
+          <text x="24" y="90" class="mono" font-size="11" letter-spacing="1" fill="#9A7228">Conversational Customer Agent &amp; Enterprise Knowledge Retrieval</text>
+          
+          <line x1="24" y1="106" x2="556" y2="106" stroke="rgba(154, 114, 40, 0.18)" stroke-width="1"/>
+          
+          <!-- Description Lines -->
+          <text x="24" y="132" class="sans" font-size="12.5" fill="#635B4F">
+            <tspan x="24" dy="0">End-to-end automated customer service via WhatsApp Business Cloud API, vector database search</tspan>
+            <tspan x="24" dy="18">over private corporate documents, and autonomous lead routing with multi-turn conversation memory</tspan>
+            <tspan x="24" dy="18">and dynamic fallback to human escalation.</tspan>
+          </text>
+          
+          <!-- Stack Tags -->
+          
+            <rect x="24" y="215" width="61.0" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="54.5" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">Python</text>
+            
+            <rect x="93.0" y="215" width="83.5" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="134.75" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">LangChain</text>
+            
+            <rect x="184.5" y="215" width="91.0" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="230.0" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">Gemini API</text>
+            
+            <rect x="283.5" y="215" width="76.0" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="321.5" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">ChromaDB</text>
+            
+            <rect x="367.5" y="215" width="113.5" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="424.25" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">Vector Search</text>
+            
+            <rect x="489.0" y="215" width="83.5" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="530.75" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">Cloud API</text>
+            
+        </g>
+        
+        <g transform="translate(50, 590)">
+          <rect width="580" height="265" rx="14" fill="#FFFFFF" stroke="rgba(154, 114, 40, 0.35)" stroke-width="1.2"/>
+          
+          <!-- Top Accent Tag & Index -->
+          <rect x="24" y="20" width="8" height="8" rx="2" fill="#9A7228"/>
+          <text x="40" y="28" class="mono" font-size="10" letter-spacing="2" fill="#9A7228">COMPUTER VISION &amp; DECISION LOGIC</text>
+          <text x="556" y="32" text-anchor="end" class="serif" font-size="24" font-weight="700" fill="url(#goldGrad)">05</text>
+          
+          <!-- Title & Subtitle -->
+          <text x="24" y="66" class="sans" font-size="18" font-weight="700" fill="#1E1912">SMART BARCODE ATTENDANCE SYSTEM</text>
+          <text x="24" y="90" class="mono" font-size="11" letter-spacing="1" fill="#9A7228">High-Throughput Vision-Based Student &amp; Staff Attendance</text>
+          
+          <line x1="24" y1="106" x2="556" y2="106" stroke="rgba(154, 114, 40, 0.18)" stroke-width="1"/>
+          
+          <!-- Description Lines -->
+          <text x="24" y="132" class="sans" font-size="12.5" fill="#635B4F">
+            <tspan x="24" dy="0">Real-time webcam barcode decoding with OpenCV and Pyzbar, automated high-precision timestamping,</tspan>
+            <tspan x="24" dy="18">instant cutoff-time logic (On-Time vs Late marking), direct MySQL database synchronization,</tspan>
+            <tspan x="24" dy="18">and instant CSV report generation for administration.</tspan>
+          </text>
+          
+          <!-- Stack Tags -->
+          
+            <rect x="24" y="215" width="61.0" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="54.5" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">Python</text>
+            
+            <rect x="93.0" y="215" width="61.0" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="123.5" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">OpenCV</text>
+            
+            <rect x="162.0" y="215" width="61.0" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="192.5" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">Pyzbar</text>
+            
+            <rect x="231.0" y="215" width="68.5" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="265.25" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">Tkinter</text>
+            
+            <rect x="307.5" y="215" width="53.5" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="334.25" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">MySQL</text>
+            
+            <rect x="369.0" y="215" width="61.0" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="399.5" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">Pillow</text>
+            
+        </g>
+        
+        <g transform="translate(650, 590)">
+          <rect width="580" height="265" rx="14" fill="#FFFFFF" stroke="rgba(154, 114, 40, 0.35)" stroke-width="1.2"/>
+          
+          <!-- Top Accent Tag & Index -->
+          <rect x="24" y="20" width="8" height="8" rx="2" fill="#9A7228"/>
+          <text x="40" y="28" class="mono" font-size="10" letter-spacing="2" fill="#9A7228">DATA SCIENCE &amp; FRAUD ANALYTICS</text>
+          <text x="556" y="32" text-anchor="end" class="serif" font-size="24" font-weight="700" fill="url(#goldGrad)">06</text>
+          
+          <!-- Title & Subtitle -->
+          <text x="24" y="66" class="sans" font-size="18" font-weight="700" fill="#1E1912">GRAPH-BASED FRAUD DETECTION</text>
+          <text x="24" y="90" class="mono" font-size="11" letter-spacing="1" fill="#9A7228">Financial Anomaly Detection in Transaction Networks</text>
+          
+          <line x1="24" y1="106" x2="556" y2="106" stroke="rgba(154, 114, 40, 0.18)" stroke-width="1"/>
+          
+          <!-- Description Lines -->
+          <text x="24" y="132" class="sans" font-size="12.5" fill="#635B4F">
+            <tspan x="24" dy="0">Identification of illicit financial rings and fraudulent transaction clusters using graph centrality</tspan>
+            <tspan x="24" dy="18">metrics, topological node embeddings, and unsupervised anomaly detection on complex multi-tier</tspan>
+            <tspan x="24" dy="18">banking and transactional graph networks.</tspan>
+          </text>
+          
+          <!-- Stack Tags -->
+          
+            <rect x="24" y="215" width="61.0" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="54.5" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">Python</text>
+            
+            <rect x="93.0" y="215" width="76.0" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="131.0" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">NetworkX</text>
+            
+            <rect x="177.0" y="215" width="143.5" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="248.75" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">PyTorch Geometric</text>
+            
+            <rect x="328.5" y="215" width="106.0" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="381.5" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">Scikit-Learn</text>
+            
+            <rect x="442.5" y="215" width="68.5" height="24" rx="4" fill="rgba(154, 114, 40, 0.08)" stroke="rgba(154, 114, 40, 0.18)" stroke-width="0.8"/>
+            <text x="476.75" y="231" text-anchor="middle" class="mono" font-size="10.5" fill="#D4AF37">Jupyter</text>
+            
+        </g>
+        
+    </g>
+</svg>
