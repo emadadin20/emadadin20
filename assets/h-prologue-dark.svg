@@ -1,54 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 180" width="1280" height="180" role="img" aria-label="I. Prologue" fill="none">
-    <title>I. Prologue</title>
-    
-    <style>
-      @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-      @keyframes fadeUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
-      @keyframes pulseGlow { 0%, 100% { opacity: 0.4; } 50% { opacity: 0.9; } }
-      .fi { animation: fadeIn 1.2s ease both; }
-      .fu { animation: fadeUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) both; }
-      .pg { animation: pulseGlow 3s ease-in-out infinite; }
-      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
-      .serif { font-family: 'Playfair Display', 'Cormorant Garamond', 'Cinzel', Georgia, serif; }
-      .mono { font-family: 'JetBrains Mono', 'SF Mono', 'Fira Code', 'Courier New', monospace; }
-      .sans { font-family: 'Cairo', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
-      .gold-grad { fill: url(#goldGrad); }
-      .gold-stroke { stroke: url(#goldGrad); }
-    </style>
-    
-    
-    <defs>
-      <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#F3D78F"/>
-        <stop offset="50%" stop-color="#C5A059"/>
-        <stop offset="100%" stop-color="#9A7228"/>
-      </linearGradient>
-      <linearGradient id="goldHorizontal" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#9A7228" stop-opacity="0.1"/>
-        <stop offset="30%" stop-color="#C5A059" stop-opacity="0.8"/>
-        <stop offset="70%" stop-color="#F3D78F"/>
-        <stop offset="100%" stop-color="#9A7228" stop-opacity="0.1"/>
-      </linearGradient>
-      <radialGradient id="ambientGlow" cx="50%" cy="0%" r="70%">
-        <stop offset="0%" stop-color="#C5A059" stop-opacity="0.12"/>
-        <stop offset="100%" stop-color="#C5A059" stop-opacity="0"/>
-      </radialGradient>
-      <clipPath id="avatarClip">
-        <circle cx="250" cy="245" r="95"/>
-      </clipPath>
-    </defs>
-    
-    <rect width="1280" height="180" fill="#0D0D0D"/>
-    <g class="fu">
-      <text x="640" y="48" text-anchor="middle" class="mono" font-size="12" letter-spacing="6" fill="#C5A059">— I —</text>
-      <text x="640" y="112" text-anchor="middle" class="serif" font-size="52" font-weight="700" fill="#F5F0E6">Prologue</text>
-      
-      <!-- Elegant Divider Lines with Diamonds -->
-      <line x1="280" y1="96" x2="450" y2="96" stroke="url(#goldHorizontal)" stroke-width="1.2"/>
-      <line x1="830" y1="96" x2="1000" y2="96" stroke="url(#goldHorizontal)" stroke-width="1.2"/>
-      <rect x="274" y="93" width="6" height="6" transform="rotate(45 277 96)" fill="#F3D78F"/>
-      <rect x="1000" y="93" width="6" height="6" transform="rotate(45 1003 96)" fill="#F3D78F"/>
-      
-      <text x="640" y="152" text-anchor="middle" class="mono" font-size="11" letter-spacing="4.5" fill="#A39B8B">THE ARCHITECT &amp; THE DISCIPLINE</text>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 190" width="1280" height="190" role="img" aria-label="I. Prologue" fill="none"><title>I. Prologue</title><style>@font-face{font-family:'Amono';src:url(data:font/woff2;base64,d09GMgABAAAAAAQoABAAAAAAB8gAAAPNAAI2BAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIBwqBmA/U1RBVEwAbBEICodQhgQBNgIkAyILIgAEIAV8ByAMBxvCBVFUTz5B/DyMiWz6sKTCExTBbZVbyIWdk0Kn/oqQfBkP/7/2v33OnS8jTxCVRDVtpJd+o9GpP4GXSkimkSy+OjSS+Py8XvWSrOSRAg2An92jVF19LokO7Mz+L/yG3doASEYHzqmLFo9HO0U0NZ0q8HbQ04AP1AESqYUXKTyg3ubaUGU9bGPQcRqvfj2AQAdIIQyEQGO1teIYb/NBlgr6HhBobLVdUhoruIDmTocqImh6lROszxR5DZ8AOBu+OuZgJA4BJDUwT7ChZ44AeG79+sXl7//XrETshnag3Jofsd6UEGYlFktslhcnTJyLAf++PAFWKFSWS4gSu/GbmANQhIwxCJAoWKwILFaZAAuNFWm9IzhmLj7h9Yt7wKIskZ3nG/qvLnvqsQfuu/3fgimE6BmhxjZfj8XERuISABWgSDHhRCPVorrumk6WXbNw4XBQj+pds6OqnWqvPzb/+vWJCDXT2QTAwqex6kmTE6Lhhd9IgpVIRAc6DkgVaa1sS1s1pck22qkmBppqWW6qwn/oTPWRc7XBvHPVU+NpDOVEjj12QUoyfvjJE2xrKHHoFOhCmy810fBKW0Bdmx912+Na1KNeDk5UqBxcXzgnklIf6GrJ3aiBnMqAWrHTvdAcqhxehV9t+UVfXT4RyQ0fOlZ+4ERtNDeEE1ghSO5KM8ZCI10WSxdZoPH09fu0RlkkOcRsEFYxNt5gstmYVdxSA0dpNCxpXArIhY1XqCS6lfHK2MmPA1J5p5NrZV1tyfEwydHbf/YIPSV2ESRO/T+9c16z/5+/aT9gOSAuF/db9ovgMsXz/2jtEJl7zPFvCoe6J2185oTMRPPimb4lM4czI+nj0yYMqCFp8qdlGQSNc3XX7C+mfFhW2oDzLddgV03GhodjpIsUZVxDPnc38UaKp1wUzRsMtDQD5C0jyRQJinR/iCRn9o8s3m+yWEnKYjHtB+QVlZLJYyarcxJbfIxO7NIu063ZZhDNRqMoGrbBYM2PG1SF8l06J8vRFko7JOO/Juot5a7Jok7mSwySyVmTwk4NRxkMrFY5KOO+JerNFe5pFp0yJA1B+u6H5g/mB7tLK311y7NPdul1V9fv03tknle3SmG2nZwIABDIA9XUi9PXkyP9t6xSvsCnl7cOw+dafZD+e07wt5iWIPg4xHMCcHMxmEvAl4uQIJNIpnFJikMQK7VtIDC2SwGqtmlTjiBEVUtDlljQGdJFYyU90tm8+Vhjv3PGmWCeqZDZgsaZZIKJ5rKp08z9JjLVJKM8ZpgGmY4A+vNGysu8H32rbgIAAAA=) format('woff2');font-display:block;}@font-face{font-family:'AserifI';src:url(data:font/woff2;base64,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) format('woff2');font-display:block;}
+@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes fadeIn{from{opacity:0}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}}
+@keyframes fillIn{from{fill-opacity:0}}
+@keyframes grow{from{transform:scaleX(0)}}
+@keyframes growY{from{transform:scaleY(0)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes breathe{0%,100%{opacity:.25}50%{opacity:1}}
+@keyframes pop{from{opacity:0;transform:scale(0)}}
+.d{stroke-dasharray:1;animation:draw var(--t,2.4s) cubic-bezier(.65,0,.35,1) var(--d,0s) both}
+.fi{animation:fadeIn var(--t,1.2s) ease var(--d,0s) both}
+.fu{animation:fadeUp var(--t,1.2s) cubic-bezier(.2,.7,.2,1) var(--d,0s) both}
+.gr{transform-box:fill-box;transform-origin:var(--o,left center);animation:grow var(--t,1.6s) cubic-bezier(.65,0,.35,1) var(--d,0s) both}
+.gy{transform-box:fill-box;transform-origin:center top;animation:growY var(--t,1.6s) cubic-bezier(.65,0,.35,1) var(--d,0s) both}
+.pp{transform-box:fill-box;transform-origin:center;animation:pop .6s cubic-bezier(.3,1.6,.5,1) var(--d,0s) both}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style><text class="fu" x="640.0" y="52" text-anchor="middle" font-family="'Amono', 'JetBrains Mono', ui-monospace, monospace" font-size="12" letter-spacing="6" fill="#F4F3EF" fill-opacity=".5">— I —</text><text class="fu" style="--d:.25s;--t:1.6s" x="640.0" y="118" text-anchor="middle" font-family="'AserifI', 'Cormorant Garamond', Georgia, serif" font-size="58" fill="#F4F3EF">Prologue</text><path class="gr" style="--o:right center;--d:.6s" d="M401.927 100H515.927" stroke="#F4F3EF" stroke-opacity=".45" stroke-width=".8"/><path class="gr" style="--d:.6s" d="M764.073 100H878.073" stroke="#F4F3EF" stroke-opacity=".45" stroke-width=".8"/><rect class="pp" style="--d:1.6s" x="393.927" y="96" width="5.6" height="5.6" transform="rotate(45 396.72700000000003 98.8)" fill="#F4F3EF"/><rect class="pp" style="--d:1.6s" x="880.473" y="96" width="5.6" height="5.6" transform="rotate(45 883.2729999999999 98.8)" fill="#F4F3EF"/><text class="fi" style="--d:1s" x="640.0" y="160" text-anchor="middle" font-family="'Amono', 'JetBrains Mono', ui-monospace, monospace" font-size="11" letter-spacing="4.4" fill="#F4F3EF" fill-opacity=".45">THE PERSON BEHIND THE SYSTEMS</text></svg>

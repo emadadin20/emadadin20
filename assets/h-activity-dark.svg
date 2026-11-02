@@ -1,54 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 180" width="1280" height="180" role="img" aria-label="V. Activity &amp; Cadence" fill="none">
-    <title>V. Activity &amp; Cadence</title>
-    
-    <style>
-      @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-      @keyframes fadeUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
-      @keyframes pulseGlow { 0%, 100% { opacity: 0.4; } 50% { opacity: 0.9; } }
-      .fi { animation: fadeIn 1.2s ease both; }
-      .fu { animation: fadeUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) both; }
-      .pg { animation: pulseGlow 3s ease-in-out infinite; }
-      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
-      .serif { font-family: 'Playfair Display', 'Cormorant Garamond', 'Cinzel', Georgia, serif; }
-      .mono { font-family: 'JetBrains Mono', 'SF Mono', 'Fira Code', 'Courier New', monospace; }
-      .sans { font-family: 'Cairo', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
-      .gold-grad { fill: url(#goldGrad); }
-      .gold-stroke { stroke: url(#goldGrad); }
-    </style>
-    
-    
-    <defs>
-      <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#F3D78F"/>
-        <stop offset="50%" stop-color="#C5A059"/>
-        <stop offset="100%" stop-color="#9A7228"/>
-      </linearGradient>
-      <linearGradient id="goldHorizontal" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#9A7228" stop-opacity="0.1"/>
-        <stop offset="30%" stop-color="#C5A059" stop-opacity="0.8"/>
-        <stop offset="70%" stop-color="#F3D78F"/>
-        <stop offset="100%" stop-color="#9A7228" stop-opacity="0.1"/>
-      </linearGradient>
-      <radialGradient id="ambientGlow" cx="50%" cy="0%" r="70%">
-        <stop offset="0%" stop-color="#C5A059" stop-opacity="0.12"/>
-        <stop offset="100%" stop-color="#C5A059" stop-opacity="0"/>
-      </radialGradient>
-      <clipPath id="avatarClip">
-        <circle cx="250" cy="245" r="95"/>
-      </clipPath>
-    </defs>
-    
-    <rect width="1280" height="180" fill="#0D0D0D"/>
-    <g class="fu">
-      <text x="640" y="48" text-anchor="middle" class="mono" font-size="12" letter-spacing="6" fill="#C5A059">— V —</text>
-      <text x="640" y="112" text-anchor="middle" class="serif" font-size="52" font-weight="700" fill="#F5F0E6">Activity &amp; Cadence</text>
-      
-      <!-- Elegant Divider Lines with Diamonds -->
-      <line x1="280" y1="96" x2="450" y2="96" stroke="url(#goldHorizontal)" stroke-width="1.2"/>
-      <line x1="830" y1="96" x2="1000" y2="96" stroke="url(#goldHorizontal)" stroke-width="1.2"/>
-      <rect x="274" y="93" width="6" height="6" transform="rotate(45 277 96)" fill="#F3D78F"/>
-      <rect x="1000" y="93" width="6" height="6" transform="rotate(45 1003 96)" fill="#F3D78F"/>
-      
-      <text x="640" y="152" text-anchor="middle" class="mono" font-size="11" letter-spacing="4.5" fill="#A39B8B">CONTINUOUS CODE ARTIFACTS &amp; REPOSITORY STREAM</text>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 190" width="1280" height="190" role="img" aria-label="III. Activity" fill="none"><title>III. Activity</title><style>@font-face{font-family:'Amono';src:url(data:font/woff2;base64,d09GMgABAAAAAAPEABAAAAAABvwAAANoAAI2BAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIBwqBmA/U1RBVEwAgQQRCAqFdIQuATYCJAMeCx4ABCAFfAcgDAcbAAVRlC/KQog/FNjGtMj+HRrQRNSjjIUQFCMotjZaoEQYHGWiuxawy7yDJ1R/mxFEdv//1bN7tXv0QEQvopQplT6YBHYoZkIIn4XNDXwn2+xGEs3Ie781hWYcgHUeY+eZzX5b/xd+w352hJpgnAS1RZRYlljt7p///b3fajDv+5ATx6i4BqhtcSt5FTp9dW5tpKrtICdTCmMvURZKkplN8ZxOf+/0jy2yl9PC3djUBdTDMMo40J+NeR52vj3QzBKndJtEkocEA9VhPZ3dgEAFkIRQCoFCX/3F7LmsCmc5NJuAQGG4kRJluefhHWsPLyJsc57Wx1gtpMtpPbDIrY+tsJgOEh0gXyTAbmDhTACvGjiwa/bv/5D9G2MRkIanLzBQixDaJXSVMFQ6t69cEfx9+TGQupDrKUFkMRZ/E1uBTEjRAAESMnSVCXSVOw701JBpN9BcFAZHIFMZrIFdmzDQHGTxezV/9T3XsU1Dq/8pIBCiSR1Tk/cN9O8RFURyFsPghMdxzqgUlUq1X2dKvaN9WD0vW6ruFEpJiKRwnlmmMivzIitSGWVLEVXXvFQCNxHNOsEm8GbWHN1GPgGTq0sPzYD1BPvsAZR2LD9+EulmeSUzdZGP1q486fiKy4zRli21UNLV7RpZSYikW1SPq91K9I6uRu5//LEI0xNcgn98vhaPnCt5t5FoHRX/AoRoInZRVzkll3x+CBUjHYOlv6E2wb6kNwGLZT1/hNds+U/TdZC4P3Y+tp+4LyaS9c5defiu/eLi5uvK2SpMNFH4/wGA+NfvzRcZhwq1F1tgfeHCbGlx1ojdiM5Rhc4BG3OZ3jIaWyAHjK2WEezV/ogPikA5KBDxegP++8Ai7zN6ZkvLn8yOQvSzmVu3XO5eulYY9/liMe+altuz4CN+vw2n9pJ0sVnAR+NncpIwuwzYklyH+p6aYznZ8cpLHwhk2QSXvAHIIgJY3uWrt1fumdfXI0d+7yS7jy5GELUoAgACaVL+7qt+LahP/u2cZT/Alx808H0HPh00f0/r0zdolUDwvCZpPXAghIWrRVrPVknFOhGRJ4LrZwQI1AzTcj42tZhpJ/IOSY3QFlTU5Eyht1xXMfTyhsJEK2UKm1ZkZshUCqUVu9ZRVpFWJSEbLvvZ3g5o7oFdD3w2mi2/BgAAAA==) format('woff2');font-display:block;}@font-face{font-family:'AserifI';src:url(data:font/woff2;base64,d09GMgABAAAAAASEABAAAAAAB5wAAAQqAAQAQgAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbgTIcMAZgP1NUQVRAAGQRCAqGWIUvATYCJAMgCxIABCAFWAcgDAcbywVRlA/ObogvDjKVAXmnSymDKZYYYjGUaRgnvr7+B3d98TiCp7XXeXv7KbmUAR2SKiuSFba6Dh2RMpWJLrrsIB6aQe0I8ABbcVEhcC4qboxsc51QC2Syud50/s+liwYbj4ab0BD/G0ViU1zY3vSijALsQDpoYJeAZwPnUzfFKgWvBWLMpM/2DdYgUINHJCE0hUCXRTbI23ZoGoIx58P8PcGYy/5OHmDMDbtAbzBGhtdH0/WL/t6gjcDKEj+0Jas2s80JWQMoX+jY8q6ciGkhC0lDszA4jYJKjCq5aG6eBSp0mD6hXHJCFxbn+BScoEF6mkzLZxp0EhvilCX6QBrkn0/eCB6b5EFV2X8HQN4dFLbmeJL8MEmRejv1YQSa1nDvsmsgAsw3OQIEJCEb1IioYx5wm25zBSRUGEYEtJ4douuDtkqfZLPzrrrtrgflv15u6S2zpaaUl9ySU7IEiEKU/3AwbSsGoYsYC8QRiDIlRSGRGyzINRYamBpHhB4fSofg/iYeWBGRVVlZ01IBRSWdejwbLGpzDtPe2qGE16+wCCYzSt/uP6aR/iewpI2wEIeoxMUm5HJIyX/3YGcODCGc/BilVzOYNEBy1kKUZOYOY2gNS8vgKkf2YpPejnCruQaINV8yXE1hUlMOweA6ijiY0LSyazgfC0NmGSpjW0mgHF6oGz19TMP9eTAUGrmUtBAlqfFa4P1a74eWH/j99xMGSWwnLjYRrsEFR5T853DTNL2dogIoGyFp+QNcrlhdboGwmACxh5EzOTmGlo90erpUvrGfIb0fkOs8RpadUZYGceg9ov408Z1LGvV/M/IzJWUDKVJdLY4yU30CP5YWDWiokevGUANyKoVt6rtjPPCsZnfuQdK4daNgbMLFThptRgN9x4YH7J9TRsHISi0XUoxpt4+XSVqPLoS+UJMO3GwTP29j3Zmkwjx5giGVn8iJjHS8mWXHugoLPnlCIJQf5eI0rKEKBHgKBAQCeCzgXjc+9i8tjrdOtdTIY5EmvbRBwkNcbxpmTEP7Rg4vBG9ZntbXHilwGykRyQE/al6KNFIYvK3py7HlNkdx2bFbmcOC5MXPQgkaCF+Z/KYyxWAQCeYI03XVZqAe5VXb23MVUxCgxR6cCZHQg12bMjgtJWU/AvxRuHL4RlREzTG/rMVUZazFHNnMvMxxSyLRMAs24SUxE7WTcLBSiLa3rpE6f08nyoX0Rwmsr88J6pGYkigYhRXpQ7AqsykQyLZ8G3rtZYMj+RUdqeoDgJ8XgrMBejuisv9X+3sRhRAfSpoSCJ5ZJ500UOX/EFIf6IV6O34AhFb8PMyM8x+QxgywPF4YFu/KqleAQNvKQwfEqmyFSuSOpGYpjQruxuuitS6j7HbbWTdcdd5JF1112RW37cufVZRvQKm0ROTfxf+kN8hZAA==) format('woff2');font-display:block;}
+@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes fadeIn{from{opacity:0}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}}
+@keyframes fillIn{from{fill-opacity:0}}
+@keyframes grow{from{transform:scaleX(0)}}
+@keyframes growY{from{transform:scaleY(0)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes breathe{0%,100%{opacity:.25}50%{opacity:1}}
+@keyframes pop{from{opacity:0;transform:scale(0)}}
+.d{stroke-dasharray:1;animation:draw var(--t,2.4s) cubic-bezier(.65,0,.35,1) var(--d,0s) both}
+.fi{animation:fadeIn var(--t,1.2s) ease var(--d,0s) both}
+.fu{animation:fadeUp var(--t,1.2s) cubic-bezier(.2,.7,.2,1) var(--d,0s) both}
+.gr{transform-box:fill-box;transform-origin:var(--o,left center);animation:grow var(--t,1.6s) cubic-bezier(.65,0,.35,1) var(--d,0s) both}
+.gy{transform-box:fill-box;transform-origin:center top;animation:growY var(--t,1.6s) cubic-bezier(.65,0,.35,1) var(--d,0s) both}
+.pp{transform-box:fill-box;transform-origin:center;animation:pop .6s cubic-bezier(.3,1.6,.5,1) var(--d,0s) both}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style><text class="fu" x="640.0" y="52" text-anchor="middle" font-family="'Amono', 'JetBrains Mono', ui-monospace, monospace" font-size="12" letter-spacing="6" fill="#F4F3EF" fill-opacity=".5">— III —</text><text class="fu" style="--d:.25s;--t:1.6s" x="640.0" y="118" text-anchor="middle" font-family="'AserifI', 'Cormorant Garamond', Georgia, serif" font-size="58" fill="#F4F3EF">Activity</text><path class="gr" style="--o:right center;--d:.6s" d="M406.07399999999996 100H520.074" stroke="#F4F3EF" stroke-opacity=".45" stroke-width=".8"/><path class="gr" style="--d:.6s" d="M759.926 100H873.926" stroke="#F4F3EF" stroke-opacity=".45" stroke-width=".8"/><rect class="pp" style="--d:1.6s" x="398.07399999999996" y="96" width="5.6" height="5.6" transform="rotate(45 400.87399999999997 98.8)" fill="#F4F3EF"/><rect class="pp" style="--d:1.6s" x="876.326" y="96" width="5.6" height="5.6" transform="rotate(45 879.126 98.8)" fill="#F4F3EF"/><text class="fi" style="--d:1s" x="640.0" y="160" text-anchor="middle" font-family="'Amono', 'JetBrains Mono', ui-monospace, monospace" font-size="11" letter-spacing="4.4" fill="#F4F3EF" fill-opacity=".45">THE RHYTHM OF THE WORK</text></svg>

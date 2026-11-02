@@ -1,54 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 180" width="1280" height="180" role="img" aria-label="II. Practice &amp; Tech Stack" fill="none">
-    <title>II. Practice &amp; Tech Stack</title>
-    
-    <style>
-      @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-      @keyframes fadeUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
-      @keyframes pulseGlow { 0%, 100% { opacity: 0.4; } 50% { opacity: 0.9; } }
-      .fi { animation: fadeIn 1.2s ease both; }
-      .fu { animation: fadeUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) both; }
-      .pg { animation: pulseGlow 3s ease-in-out infinite; }
-      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
-      .serif { font-family: 'Playfair Display', 'Cormorant Garamond', 'Cinzel', Georgia, serif; }
-      .mono { font-family: 'JetBrains Mono', 'SF Mono', 'Fira Code', 'Courier New', monospace; }
-      .sans { font-family: 'Cairo', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
-      .gold-grad { fill: url(#goldGrad); }
-      .gold-stroke { stroke: url(#goldGrad); }
-    </style>
-    
-    
-    <defs>
-      <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#F3D78F"/>
-        <stop offset="50%" stop-color="#C5A059"/>
-        <stop offset="100%" stop-color="#9A7228"/>
-      </linearGradient>
-      <linearGradient id="goldHorizontal" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#9A7228" stop-opacity="0.1"/>
-        <stop offset="30%" stop-color="#C5A059" stop-opacity="0.8"/>
-        <stop offset="70%" stop-color="#F3D78F"/>
-        <stop offset="100%" stop-color="#9A7228" stop-opacity="0.1"/>
-      </linearGradient>
-      <radialGradient id="ambientGlow" cx="50%" cy="0%" r="70%">
-        <stop offset="0%" stop-color="#C5A059" stop-opacity="0.12"/>
-        <stop offset="100%" stop-color="#C5A059" stop-opacity="0"/>
-      </radialGradient>
-      <clipPath id="avatarClip">
-        <circle cx="250" cy="245" r="95"/>
-      </clipPath>
-    </defs>
-    
-    <rect width="1280" height="180" fill="#0D0D0D"/>
-    <g class="fu">
-      <text x="640" y="48" text-anchor="middle" class="mono" font-size="12" letter-spacing="6" fill="#C5A059">— II —</text>
-      <text x="640" y="112" text-anchor="middle" class="serif" font-size="52" font-weight="700" fill="#F5F0E6">Practice &amp; Tech Stack</text>
-      
-      <!-- Elegant Divider Lines with Diamonds -->
-      <line x1="280" y1="96" x2="450" y2="96" stroke="url(#goldHorizontal)" stroke-width="1.2"/>
-      <line x1="830" y1="96" x2="1000" y2="96" stroke="url(#goldHorizontal)" stroke-width="1.2"/>
-      <rect x="274" y="93" width="6" height="6" transform="rotate(45 277 96)" fill="#F3D78F"/>
-      <rect x="1000" y="93" width="6" height="6" transform="rotate(45 1003 96)" fill="#F3D78F"/>
-      
-      <text x="640" y="152" text-anchor="middle" class="mono" font-size="11" letter-spacing="4.5" fill="#A39B8B">CORE DISCIPLINES &amp; MATHEMATICAL FOUNDATIONS</text>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 190" width="1280" height="190" role="img" aria-label="II. Practice" fill="none"><title>II. Practice</title><style>@font-face{font-family:'Amono';src:url(data:font/woff2;base64,d09GMgABAAAAAAQsABAAAAAAB+wAAAPRAAI2BAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIBwqBmA/U1RBVEwAfBEICodchXkBNgIkAyYLJgAEIAV8ByAMBxvLBVGULspciK8KeDJ8lEMCQapjdRJaNY2OtBZ7qu0O6RMm7ohrPP//a/z2uW++Ie7JvZFco1WolhqrEwmZSvRqPv+nU78gpCswyQqQ0NYJTAqRXDmAtBWAtr5OOJe3dgvQWOQpyU7T8P4v/IatyDFRfaxSG2l74pr60Vb+VO2Uy6BosIEkyYAHlLY/n00LR5I2oYHAbG+qwRhz9JHNKIXegGAMoESME8Eoc8yT/Qd9mRCtg74HBKMss0KlLLfgzsWWOliVCIrv6kTWGKAe1wngmHrvnOOKBIoR4CHBP/XoXgAvLVgwpc3+H6H9zRoEallNYYEBEcMKUxSWqAfXK1oI3Lzr1BDjRWeGgrSswW9yDmiiMgEEFBqmaIIpOjeAaSZoBi2wxh6YwceSKXvBlB4h2M0FpL+L/pM3bsKE8FnBrkjPeNQk91mCqWQ6eQToPlYgUgQXHoXhkQVjTmeuHrlk0oL5MQtj9g7Pp2kUQkVMNpNZgLLvjK04N7LJOTI2RlCD4+Po6OgoMINjzJERIAdG0dFxAg2MjKCIWIa0qky2P0NlpZmnPx/mgQDI0IRIAhFlhgCaoVEV0eEGKrrSQ4Zoxr58u0S2TFXOZVOqdbQDbDAkdQNIBRYz85j8GxSsbkEDB65yfDbliOqpl/GwHpdVsTh/utU2yrs9uvrq+NYCVJglDsmliIWQ8HSy8smk5Xr1ln0lx7zg/3xdnL527TrlVzgUI9ssVyRaEldos7Jku7giOaiouiBgLFsS1gRB1ZWgxNm2CxyPcVlcQljZ6j6eXsalji+Hg0F1q8cKqmVQ6Zru/7VH27PEr0PJd40CEHXehNoumhf1Pv2CeUGHFtYZS4eQqs+9kZRCquue+6eqP/Yu3UDiLc9hb4xUyLKFkiWxhYWshLtFLMhYtmQF87wCq8Dxzh3m4mxZEn9MONZ9wdV1QTS9kmya4gVwzMiHudhC0Rus9Cy+rtink3tTho/zuiEIus4fh4MxuPRgQu58KyXoURVTTj7E4W/2enO5VaWncJn2QSnUWJkXTFJlnvckxx/k1O/2emNFWq2ZEp8bPgQRZ94YH43XZ+B/J9OH5u4vzoqLW5R1f3DO2iTcu+mP7xiIh51aroYGgKA2dleWLbRw+7fh1j7C61ddgQ8jibvoL9SJeodBBcIfYlgngAIQPGTi3p8vwVmOSiVqtQg5xh1eiTZ5PkJ3ktWl53DcgL0o6UaUcZiGMMY4oRllljDeGEuOn2CUDY4rVa5VDUeTHKUqlavQwkcZQ3ymo0alYunq1XLUoYD+Ktd4oy/St+4ZAAAA) format('woff2');font-display:block;}@font-face{font-family:'AserifI';src:url(data:font/woff2;base64,d09GMgABAAAAAATgABAAAAAACEAAAASEAAQAQgAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbgSocMAZgP1NUQVRAAGwRCAqHeIYoATYCJAMkCxQABCAFWAcgDAcbSAZRlA7OVIgfiTG4HzkSDCGGMr9J/UYp5Y54Jx7+W+N3385gqlHM0hcRILqkQtREqJxOtKSy859XwvkDcAHp1Je0XsG1BsdCzH9YgPm/nN6qnkfHbU3oEMdq7tv2X5itAZTZvXwPHAsosAAPWDOnS0Ixi+LJNV/bpZugj8BwSJ1CCIPIpxhqtU3yjl0HTphac6G71dSG7roWU1urettNlWH7aGip6243GAMuKwIhFA2vDjbc5IgsQ7b8K/Y3Pgae6cGFAUIhyQYKYaDEIVK4wwNC1MRkHcutlNDx4ZnTtM3swPwcL2O5ARS3ijPlF/vpMDZFkrXeATHQP5281kWz9ab+/0/Ie4MZNjIuFV2YLYmFi4wn0Py6cw2NvQH4FicUQXI2OlUZHssXwjhFJIZTCcpIU1x2JjA2kRJzFGY7okqNOk269ZYlaobynRUjhg3p1+5MAX4hytIo4hCGuYRhxBHiMSAniIUg9GtvmxeP0j6eLhfQmBwsgFsBsjXHjB+ahXraZYBcFSCV8oYlII3ek5TOLnJHx/3lcuGY7A4Er0+zYvpnANICwVcg+FIkfCgck8vlANmYodt1zTG7OkgxwwDZ0+eJ/VtBYFAYzZSgwEHuPoA7tGqx3i1E9K9k6ndWZVylm0hq7x4rMEvqb0lYw9L7ALlZISCJ9HkgEw7JHxZ2aN0mA4kFVS7n9u3eyFVomx4qMObZsK3T3kk9excgA7yI7p6Z3DcZnlVsnQPIjEJLNGVILpdfBMhED6m9HYJ7eyF4XyKRmMCdiq1jzOihQVtg26t3Uufu5lSN8CLaI+HNwYtq47oAcpbZipBi+hfKJyTxAd90BWIiV68CpIPUPo1SRinzdNEBIXfqYk2VUEokJRb1h3htsEgnYL/VwsfbMJAsQPFP8xx4pU/UdUL4Th4dM+yQv9qzKej0kFt5aX8iUw6TrxCM4mGzqywK/GIjLLUJrEZqzMh/wdgRRVuHfgbKLlJQLVDxYVBnO6nIZ87ekMoot132eztf/Vik7EmKSYCzXZ6mexFeoQ+ll7Wk7F/+yD0q2lCP1hTLhc5jACZQr4cp0uG4VneiUgNMxE6h/GpBewBfoQdYbBJiz0To+N/xE+sJWT5eN7wEUbQXrEAoz6Sj3pwsiuV55k7jYtz16YFt/GxBoiddoVCD8mpG5+4+GxUdJTxiRs6k03Ynte8mDaBBdJR5jZlqpghNdCfi3YlEc7y2Qo7qyTp2tnaWQeQzCvrYK0ODtwB7rgXCGosD+QmM+C/oNGXlUUvO4jHHx5pY9Zv4KsJZHh2vzZnV/8pWDQiYr4H6HzKHOSpMZd6bZGW8kmNMbRSX994VX42/4sZjlVSnih2TyZNerx2osi5RNwKBbFvlH0PrilEO3wan9A7e1Fbdg7dDbLYYUn6JsuhVGKhA6U1DJz4GQJ8oGXgC5SHxSkggXNePirOmR7hJfpgcIUaHlg0+IDDE5sJ9sCzbKIk8RGE4XWIkeJhl+LXDDTXZXr2qtGpS47Q6TRo06nXg/Fmi/EnZ31pS+TTKq+e7AAAA) format('woff2');font-display:block;}
+@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes fadeIn{from{opacity:0}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}}
+@keyframes fillIn{from{fill-opacity:0}}
+@keyframes grow{from{transform:scaleX(0)}}
+@keyframes growY{from{transform:scaleY(0)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes breathe{0%,100%{opacity:.25}50%{opacity:1}}
+@keyframes pop{from{opacity:0;transform:scale(0)}}
+.d{stroke-dasharray:1;animation:draw var(--t,2.4s) cubic-bezier(.65,0,.35,1) var(--d,0s) both}
+.fi{animation:fadeIn var(--t,1.2s) ease var(--d,0s) both}
+.fu{animation:fadeUp var(--t,1.2s) cubic-bezier(.2,.7,.2,1) var(--d,0s) both}
+.gr{transform-box:fill-box;transform-origin:var(--o,left center);animation:grow var(--t,1.6s) cubic-bezier(.65,0,.35,1) var(--d,0s) both}
+.gy{transform-box:fill-box;transform-origin:center top;animation:growY var(--t,1.6s) cubic-bezier(.65,0,.35,1) var(--d,0s) both}
+.pp{transform-box:fill-box;transform-origin:center;animation:pop .6s cubic-bezier(.3,1.6,.5,1) var(--d,0s) both}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style><text class="fu" x="640.0" y="52" text-anchor="middle" font-family="'Amono', 'JetBrains Mono', ui-monospace, monospace" font-size="12" letter-spacing="6" fill="#F4F3EF" fill-opacity=".5">— II —</text><text class="fu" style="--d:.25s;--t:1.6s" x="640.0" y="118" text-anchor="middle" font-family="'AserifI', 'Cormorant Garamond', Georgia, serif" font-size="58" fill="#F4F3EF">Practice</text><path class="gr" style="--o:right center;--d:.6s" d="M407.81399999999996 100H521.814" stroke="#F4F3EF" stroke-opacity=".45" stroke-width=".8"/><path class="gr" style="--d:.6s" d="M758.186 100H872.186" stroke="#F4F3EF" stroke-opacity=".45" stroke-width=".8"/><rect class="pp" style="--d:1.6s" x="399.81399999999996" y="96" width="5.6" height="5.6" transform="rotate(45 402.614 98.8)" fill="#F4F3EF"/><rect class="pp" style="--d:1.6s" x="874.586" y="96" width="5.6" height="5.6" transform="rotate(45 877.386 98.8)" fill="#F4F3EF"/><text class="fi" style="--d:1s" x="640.0" y="160" text-anchor="middle" font-family="'Amono', 'JetBrains Mono', ui-monospace, monospace" font-size="11" letter-spacing="4.4" fill="#F4F3EF" fill-opacity=".45">FIVE DISCIPLINES, ONE CRAFT</text></svg>
