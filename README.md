@@ -1,5 +1,5 @@
 <div align="center">
-<a href="mailto:emadadin17@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-v20-dark.svg"><img alt="Emad'adin &middot;l-Ynaey — &middot;I &amp; Full-Stack Systems &middot;rchitect" src="assets/hero-v20-light.svg" width="100%"></picture></a>
+<a href="mailto:emadadin17@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-v21-dark.svg"><img alt="Emad'adin &middot;l-Ynaey — &middot;I &amp; Full-Stack Systems &middot;rchitect" src="assets/hero-v21-light.svg" width="100%"></picture></a>
 
 <br>
 <sub><a href="mailto:emadadin17@gmail.com">CONTACT</a> &nbsp;&nbsp;&middot;&nbsp;&nbsp; <a href="https://ai-asaas.com">ASAAS</a> &nbsp;&nbsp;&middot;&nbsp;&nbsp; <a href="https://github.com/emadadin20">GITHUB</a> &nbsp;&nbsp;&middot;&nbsp;&nbsp; <a href="https://wa.me/967773774428">WHATSAPP</a> &nbsp;&nbsp;&middot;&nbsp;&nbsp; <a href="https://linkedin.com">LINKEDIN</a></sub>
