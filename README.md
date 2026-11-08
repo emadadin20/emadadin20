@@ -1,24 +1,24 @@
 <div align="center">
-<a href="mailto:emadadin17@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-v18-dark.svg"><img alt="Emad'adin Al-Ynaey — AI &amp; Full-Stack Systems Architect" src="assets/hero-v18-light.svg" width="100%"></picture></a>
+<a href="mailto:emadadin17@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-v20-dark.svg"><img alt="Emad'adin &middot;l-Ynaey — &middot;I &amp; Full-Stack Systems &middot;rchitect" src="assets/hero-v20-light.svg" width="100%"></picture></a>
 
 <br>
-<sub><a href="mailto:emadadin17@gmail.com">CONTACT</a> &nbsp;&nbsp;·&nbsp;&nbsp; <a href="https://ai-asaas.com">ASAAS</a> &nbsp;&nbsp;·&nbsp;&nbsp; <a href="https://github.com/emadadin20">GITHUB</a> &nbsp;&nbsp;·&nbsp;&nbsp; <a href="https://wa.me/967773774428">WHATSAPP</a> &nbsp;&nbsp;·&nbsp;&nbsp; <a href="https://linkedin.com">LINKEDIN</a></sub>
+<sub><a href="mailto:emadadin17@gmail.com">CONT&middot;CT</a> &nbsp;&nbsp;·&nbsp;&nbsp; <a href="https://ai-asaas.com">&middot;S&middot;&middot;S</a> &nbsp;&nbsp;·&nbsp;&nbsp; <a href="https://github.com/emadadin20">GITHUB</a> &nbsp;&nbsp;·&nbsp;&nbsp; <a href="https://wa.me/967773774428">WH&middot;TS&middot;PP</a> &nbsp;&nbsp;·&nbsp;&nbsp; <a href="https://linkedin.com">LINKEDIN</a></sub>
 
 <br>
 <br>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-prologue-dark.svg"><img alt="I. Prologue" src="assets/h-prologue-light.svg" width="100%"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/prologue-dark.svg"><img alt="About Emad'adin — 35+ solutions delivered, 50+ minds mentored" src="assets/prologue-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/prologue-dark.svg"><img alt="&middot;bout Emad'adin — 35+ solutions delivered, 50+ minds mentored" src="assets/prologue-light.svg" width="100%"></picture>
 
 <br>
 <br>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-practice-dark.svg"><img alt="II. Practice" src="assets/h-practice-light.svg" width="100%"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/practice-v3-dark.svg"><img alt="Five disciplines: AI &amp; automation, backend &amp; architecture, databases &amp; data engineering, frontend &amp; enterprise ERPs, data science &amp; mentoring" src="assets/practice-v3-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/practice-v3-dark.svg"><img alt="Five disciplines: &middot;I &amp; automation, backend &amp; architecture, databases &amp; data engineering, frontend &amp; enterprise ERPs, data science &amp; mentoring" src="assets/practice-v3-light.svg" width="100%"></picture>
 
 <br>
 <br>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-activity-dark.svg"><img alt="III. Activity" src="assets/h-activity-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-activity-dark.svg"><img alt="III. &middot;ctivity" src="assets/h-activity-light.svg" width="100%"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/emadadin20/emadadin20/output/snake-dark.svg"><img alt="Contribution graph" src="https://raw.githubusercontent.com/emadadin20/emadadin20/output/snake-light.svg" width="100%"></picture>
 
