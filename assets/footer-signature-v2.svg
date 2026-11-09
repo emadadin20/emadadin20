@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="1200" height="230" role="img" aria-labelledby="sig-title">
+  <title id="sig-title">Emad'adin Al-Ynaey — Building systems that turn complex data into quiet, decisive action.</title>
+  <defs>
+    <linearGradient id="sig-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#10070C"/><stop offset="1" stop-color="#190B12"/></linearGradient>
+    <radialGradient id="sig-glow" cx="50%" cy="100%" r="70%"><stop offset="0" stop-color="#701A3D" stop-opacity=".7"/><stop offset="1" stop-color="#451126" stop-opacity="0"/></radialGradient>
+    <linearGradient id="sig-line" gradientUnits="userSpaceOnUse" x1="100" y1="0" x2="1100" y2="0">
+      <stop offset="0" stop-color="#701A3D" stop-opacity="0"/><stop offset=".5" stop-color="#C77B9B"/><stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .sig-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .sig-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .sig-name {
+      stroke: #E5B5C7; stroke-width: 1; fill: #E5B5C7; fill-opacity: 0;
+      stroke-dasharray: 900; stroke-dashoffset: 900;
+      animation: sig-write 3.6s cubic-bezier(.65,0,.35,1) .3s forwards;
+    }
+    .sig-rule { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: sig-draw 2.4s cubic-bezier(.65,0,.35,1) 1.6s forwards; }
+    .sig-in { animation: sig-in 1.4s ease 2.6s both; }
+    @keyframes sig-write { 70% { stroke-dashoffset: 0; fill-opacity: 0; } 100% { stroke-dashoffset: 0; fill-opacity: 1; } }
+    @keyframes sig-draw { to { stroke-dashoffset: 0; } }
+    @keyframes sig-in { from { opacity: 0; } to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .sig-name { animation: none; stroke-dashoffset: 0; fill-opacity: 1; }
+      .sig-rule { animation: none; stroke-dashoffset: 0; }
+      .sig-in { animation: none; opacity: 1; }
+    }
+  </style>
+
+  <rect width="1200" height="230" fill="url(#sig-bg)"/>
+  <rect width="1200" height="230" fill="url(#sig-glow)"/>
+
+  <!-- Starfield embers -->
+  <g fill="#E5B5C7" opacity=".7">
+    <circle cx="210" cy="40" r="1.3"><animate attributeName="opacity" values="0;1;0" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="980" cy="50" r="1.5"><animate attributeName="opacity" values="0;1;0" dur="4.2s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="340" cy="180" r="1.2"><animate attributeName="opacity" values="0;1;0" dur="5s" begin=".5s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="190" r="1.4"><animate attributeName="opacity" values="0;1;0" dur="4.6s" begin="2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Big Name Inscription -->
+  <text class="sig-serif sig-name" x="600" y="104" text-anchor="middle" font-size="74" font-style="italic" font-weight="300" letter-spacing="1">Emad'adin Al-Ynaey</text>
+
+  <!-- Divider Line -->
+  <path class="sig-rule" d="M100 134 H1100" stroke="url(#sig-line)" stroke-width="1"/>
+  <circle cx="600" cy="134" r="3" fill="#F8F0F3" class="sig-in">
+    <animate attributeName="r" values="3;5;3" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Quote & Tagline -->
+  <g class="sig-in">
+    <text class="sig-serif" x="600" y="174" text-anchor="middle" font-size="19" font-style="italic" fill="#F8F0F3">Building systems that turn complex enterprise data into quiet, decisive action.</text>
+    <text class="sig-mono" x="600" y="204" text-anchor="middle" font-size="11" letter-spacing="3" fill="#B6A3AC">ENGINEERING INTELLIGENCE · DESIGNING ARCHITECTURES · ASAAS FOUNDER</text>
+  </g>
+</svg>

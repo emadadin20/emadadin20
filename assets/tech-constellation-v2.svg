@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 488" width="1200" height="488" role="img" aria-labelledby="tc-t">
+  <title id="tc-t">Tech Stack — The tools Emad'adin reaches for.</title>
+  <defs>
+    <linearGradient id="tc-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#190B12"/><stop offset="1" stop-color="#10070C"/></linearGradient>
+    <linearGradient id="tc-trace" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8F0F3"/><stop offset=".45" stop-color="#E5B5C7"/><stop offset="1" stop-color="#C77B9B" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="tc-glow" cx="50%" cy="50%" r="55%"><stop offset="0" stop-color="#701A3D" stop-opacity=".4"/><stop offset="1" stop-color="#451126" stop-opacity="0"/></radialGradient>
+  </defs>
+  <style>
+    .tc-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .tc-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .tc-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .tc-trace { stroke-dasharray: 240 880; stroke-dashoffset: 1120; animation: tc-trace 6s linear infinite; }
+    @keyframes tc-trace { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .tc-trace { display: none; } }
+  </style>
+  <rect width="1200" height="488" rx="20" fill="url(#tc-bg)"/>
+  <rect width="1200" height="488" rx="20" fill="url(#tc-glow)"/>
+  <rect x=".5" y=".5" width="1199" height="487" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".16"/>
+
+  <!-- Panel 1: Languages -->
+  <g transform="translate(32 32)">
+    <rect width="360" height="200" rx="14" fill="#190B12" fill-opacity=".85" stroke="#C77B9B" stroke-opacity=".22"/>
+    <rect class="tc-trace" style="animation-delay:0s" width="360" height="200" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.6"/>
+    <text class="tc-mono" x="24" y="38" font-size="11" letter-spacing="2.4" fill="#C77B9B">01  LANGUAGES</text>
+    <text class="tc-serif" x="24" y="90" font-size="30" font-weight="300" fill="#F8F0F3">Python  ·  TypeScript</text>
+    <text class="tc-serif" x="24" y="130" font-size="24" font-weight="300" fill="#F8F0F3">Java  ·  C++  ·  SQL</text>
+    <text class="tc-serif" x="24" y="166" font-size="20" font-weight="300" fill="#B6A3AC">8086 Assembly · Shell</text>
+    <text class="tc-mono" x="24" y="186" font-size="10" letter-spacing="1.4" fill="#E5B5C7">CORE ENGINE OF COMPUTATION</text>
+  </g>
+
+  <!-- Panel 2: AI & Agents -->
+  <g transform="translate(420 32)">
+    <rect width="360" height="200" rx="14" fill="#190B12" fill-opacity=".85" stroke="#C77B9B" stroke-opacity=".22"/>
+    <rect class="tc-trace" style="animation-delay:-1s" width="360" height="200" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.6"/>
+    <text class="tc-mono" x="24" y="38" font-size="11" letter-spacing="2.4" fill="#C77B9B">02  AI &amp; AGENTIC SYSTEMS</text>
+    <text class="tc-serif" x="24" y="90" font-size="30" font-weight="300" fill="#F8F0F3">Autonomous Agents</text>
+    <text class="tc-serif" x="24" y="130" font-size="24" font-weight="300" fill="#F8F0F3">RAG  ·  LangGraph  ·  LLMs</text>
+    <text class="tc-serif" x="24" y="166" font-size="20" font-weight="300" fill="#B6A3AC">Prompt Eng · Vector Search</text>
+    <text class="tc-mono" x="24" y="186" font-size="10" letter-spacing="1.4" fill="#E5B5C7">INTELLIGENT WORKFLOWS</text>
+  </g>
+
+  <!-- Panel 3: Backend & APIs -->
+  <g transform="translate(808 32)">
+    <rect width="360" height="200" rx="14" fill="#190B12" fill-opacity=".85" stroke="#C77B9B" stroke-opacity=".22"/>
+    <rect class="tc-trace" style="animation-delay:-2s" width="360" height="200" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.6"/>
+    <text class="tc-mono" x="24" y="38" font-size="11" letter-spacing="2.4" fill="#C77B9B">03  BACKEND &amp; APIS</text>
+    <text class="tc-serif" x="24" y="90" font-size="30" font-weight="300" fill="#F8F0F3">FastAPI  ·  Node.js</text>
+    <text class="tc-serif" x="24" y="130" font-size="24" font-weight="300" fill="#F8F0F3">REST APIs  ·  GraphQL</text>
+    <text class="tc-serif" x="24" y="166" font-size="20" font-weight="300" fill="#B6A3AC">Microservices · JWT / Auth</text>
+    <text class="tc-mono" x="24" y="186" font-size="10" letter-spacing="1.4" fill="#E5B5C7">HIGH-CONCURRENCY PIPELINES</text>
+  </g>
+
+  <!-- Panel 4: Frontend & ERPs -->
+  <g transform="translate(32 256)">
+    <rect width="360" height="200" rx="14" fill="#190B12" fill-opacity=".85" stroke="#C77B9B" stroke-opacity=".22"/>
+    <rect class="tc-trace" style="animation-delay:-3s" width="360" height="200" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.6"/>
+    <text class="tc-mono" x="24" y="38" font-size="11" letter-spacing="2.4" fill="#C77B9B">04  FRONTEND &amp; ENTERPRISE ERPS</text>
+    <text class="tc-serif" x="24" y="90" font-size="30" font-weight="300" fill="#F8F0F3">React  ·  Next.js</text>
+    <text class="tc-serif" x="24" y="130" font-size="24" font-weight="300" fill="#F8F0F3">Tailwind CSS  ·  JavaFX</text>
+    <text class="tc-serif" x="24" y="166" font-size="20" font-weight="300" fill="#B6A3AC">Asaas Estates &amp; Cars ERP</text>
+    <text class="tc-mono" x="24" y="186" font-size="10" letter-spacing="1.4" fill="#E5B5C7">ENTERPRISE INTERFACES</text>
+  </g>
+
+  <!-- Panel 5: Data & Infrastructure -->
+  <g transform="translate(420 256)">
+    <rect width="360" height="200" rx="14" fill="#190B12" fill-opacity=".85" stroke="#C77B9B" stroke-opacity=".22"/>
+    <rect class="tc-trace" style="animation-delay:-4s" width="360" height="200" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.6"/>
+    <text class="tc-mono" x="24" y="38" font-size="11" letter-spacing="2.4" fill="#C77B9B">05  DATA &amp; INFRASTRUCTURE</text>
+    <text class="tc-serif" x="24" y="90" font-size="30" font-weight="300" fill="#F8F0F3">PostgreSQL  ·  Redis</text>
+    <text class="tc-serif" x="24" y="130" font-size="24" font-weight="300" fill="#F8F0F3">Docker  ·  Compose  ·  AWS</text>
+    <text class="tc-serif" x="24" y="166" font-size="20" font-weight="300" fill="#B6A3AC">MongoDB · Oracle DB</text>
+    <text class="tc-mono" x="24" y="186" font-size="10" letter-spacing="1.4" fill="#E5B5C7">ACID · CACHING · CLOUD</text>
+  </g>
+
+  <!-- Panel 6: Systems Architecture -->
+  <g transform="translate(808 256)">
+    <rect width="360" height="200" rx="14" fill="#190B12" fill-opacity=".85" stroke="#C77B9B" stroke-opacity=".22"/>
+    <rect class="tc-trace" style="animation-delay:-5s" width="360" height="200" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.6"/>
+    <text class="tc-mono" x="24" y="38" font-size="11" letter-spacing="2.4" fill="#C77B9B">06  ARCHITECTURE &amp; SYSTEMS</text>
+    <text class="tc-serif" x="24" y="90" font-size="30" font-weight="300" fill="#F8F0F3">System Design  ·  ACID</text>
+    <text class="tc-serif" x="24" y="130" font-size="22" font-weight="300" fill="#F8F0F3">Event-Driven  ·  Multi-Tenant</text>
+    <text class="tc-serif" x="24" y="166" font-size="20" font-weight="300" fill="#B6A3AC">Mentorship · 50+ Engineers</text>
+    <text class="tc-mono" x="24" y="186" font-size="10" letter-spacing="1.4" fill="#E5B5C7">LEADERSHIP &amp; ARCHITECTURE</text>
+  </g>
+</svg>
